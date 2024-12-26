@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/nikil.jpeg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Nikil Krishna</title>
+    <style>
+      #intro-video {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        z-index: 9999;
+      }
+    </style>
+  </head>
+  <body>
+    <video id="intro-video" autoplay muted playsinline fullscreen onended="hideVideo()">
+      <source src="Intro.mp4" type="video/mp4">
+      Your browser does not support the video tag.
+    </video>
+    <div id="root" style="display: none;">
+      <script type="module" src="/src/main.tsx"></script>
+    </div>
+    <script>
+      function hideVideo() {
+        document.getElementById('intro-video').style.display = 'none';
+        document.getElementById('root').style.display = 'block';
+      }
+    </script>
+  </body>
+</html>
