@@ -10,7 +10,7 @@ export const projects = [
     title: 'Website',
     description: 'Open source code for this website',
     technologies: ['React', 'Bolt.new', 'Netlify'],
-    github: 'https://github.com/greenrace666/website',
+    github: 'https://github.com/greenrace666/websitecode',
     demo:''
   },
   {
