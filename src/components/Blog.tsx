@@ -4,18 +4,18 @@ import { BookOpen, ArrowUpRight } from 'lucide-react';
 const Blog = () => {
   const blogPosts = [
     {
-      title: "My First blog",
-      excerpt: "Just an intro",
-      date: "December 15, 2024",
-      readTime: "1 min read",
-      link: "https://nikilblogs.netlify.app/blog/myfirstblog/"
+      title: "From Lab Bench to Life Lessons - A Slightly Less Boring Journey of Discovery",
+      excerpt: "About Biology",
+      date: "December 30, 2024",
+      readTime: "5 min read",
+      link: "https://nikilblogs.netlify.app/posts/bio/"
     },
     {
       title: "All Atom Structure Prediction in Minutes",
       excerpt: "Using Chai-1 in H100 GPU's",
       date: "December 16, 2024",
       readTime: "5 min read",
-      link: "https://nikilblogs.netlify.app/blog/accurate/"
+      link: "https://nikilblogs.netlify.app/posts/chai1-modal/"
     }
   ];
 
