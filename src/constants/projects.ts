@@ -5,7 +5,7 @@ export const projects = [
     technologies: ['React', 'Modal GPU', 'Supabase'],
     github: '',
     demo:'https://phage.netlify.app/'
-  }
+  },
   {
     title: 'Protein Structure Prediction',
     description: 'Improvement to boltz.py and chai1.py code in Modal-Examples',
