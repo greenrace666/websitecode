@@ -1,5 +1,6 @@
 import React from 'react';
 import { Mail, MapPin } from 'lucide-react';
+import CalendlyWidget from './CalendlyWidget';
 
 const ContactInfo: React.FC = () => (
   <div>
@@ -20,6 +21,7 @@ const ContactInfo: React.FC = () => (
         Drop a Hi 👋
       </p>
     </div>
+    <CalendlyWidget />
   </div>
 );
 
