@@ -41,7 +41,7 @@ export const highlights = [
   },
   {
     label: "Focus",
-    value: "AI + Bio",
+    value: "Comp + Bio",
     detail: "Drug design and protein binder design",
   },
 ];
@@ -50,7 +50,7 @@ export const education = [
   {
     institution: "SASTRA Deemed University, Thanjavur",
     degree: "B.Tech Biotechnology",
-    period: "2022 - Present",
+    period: "2022 - 2026",
   },
   {
     institution: "ALPHA Wisdom Vidyashram",
