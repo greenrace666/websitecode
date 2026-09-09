@@ -1,6 +1,6 @@
 import { ArrowDown, ArrowRight, Download, ExternalLink } from 'lucide-react';
 import Image from './nikil.webp';
-import pdf from '/src/cvnew2.pdf';
+import pdf from '/src/cv.pdf';
 import { highlights, profile, researchFocus } from '../constants/portfolio';
 
 const Hero = () => {

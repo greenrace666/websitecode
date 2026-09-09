@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { Download, FileText, Eye, X } from "lucide-react";
-import pdf from "/src/cvnew2.pdf";
+import pdf from "/src/cv.pdf";
 import { certifications } from "../constants/portfolio";
 
 const Resume = () => {
