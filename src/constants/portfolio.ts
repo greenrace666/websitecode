@@ -81,20 +81,6 @@ export const experience = [
     ],
   },
   {
-    title: "Founder",
-    organization: "Phage",
-    period: "01/2026",
-    icon: ServerCog,
-    bullets: [
-      "phage.netlify.app (alpha testing)",
-      "Molecular Dynamics as a Service",
-      "Frontend web design",
-      "Production-grade molecular dynamics automation",
-      "Backend scaling, optimization and maintenance",
-      "Agentic engineering",
-    ],
-  },
-  {
     title: "Summer Internship",
     organization: "IIT Dharwad",
     period: "06/2025",
